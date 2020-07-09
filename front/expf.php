@@ -1,4 +1,4 @@
-<div class="text-center font-weight-bold mt-5" style="font-size:25px">經驗/Experience</div><br>
+<div class="text-center font-weight-bold mt-5 h3">經驗/Experience</div><br>
 <!--原文
    <h5 class="font-weight-bold">PHP資料庫網頁設計班進修</h5>
 <h5>勞動部泰山職業訓練場 Mar 2020 ~ Aug 2020 </h5>
@@ -25,9 +25,9 @@
     // echo "</pre>";
     foreach($rows as $row){
   ?>
-<h4 class="font-weight-bold"><?=$row['title'];?></h4>
-<h5 class="font-weight-bold"><?=$row['posi'];?> </h5>
-<p class="mx-3 font-weight-bold"><?=$row['job'];?></p>
+<h4 class="font-weight-bold mx-5"><?=$row['title'];?></h4>
+<h5 class="font-weight-bold mx-5"><?=$row['posi'];?> </h5>
+<p class="mx-3 font-weight-bold mx-5"><?=$row['job'];?></p>
 <br>
 
 

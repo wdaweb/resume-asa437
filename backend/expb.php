@@ -24,7 +24,7 @@
         <td width="30%">工作內容</td>
         </tr>
         <?php
-        $table='exp';
+        $table='expb';
             $db=new DB($table);
             $rows=$db->all();
             foreach($rows as $row){
@@ -42,6 +42,10 @@
         ?>
 
         <tr>
+            <td width="200px">
+                        <input type="hidden" name="table" value='<?=$table;?>'>
+                        <input class="btnOM" type="button" onclick="openModel('modal/expm.php?table=<?=$table;?>')" value="新增">
+                   </td>
             <td colspan="4">
             <input type="hidden" name="table" value='<?=$table;?>'>
                 <input type="submit" value="修改">

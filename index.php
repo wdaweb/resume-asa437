@@ -21,6 +21,9 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
   <script src="./js/js.js"></script>
+  <!-- 字型 -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Open+Sans@1&display=swap"
+    rel="stylesheet">  -->
 </head>
 
 <body class="AsaBack1">
@@ -89,7 +92,7 @@
     </div>
 
 <!-- -------------------------------------------------------------------------------- -->
-    <footer class="container font-weight-bold text-center mx-auto mt-0 bg-info text-white">
+    <footer class="container font-weight-bold text-center mx-auto mt-0 asawallback3">
       <p class="py-2 h4">
         Resume©2020-網頁設計By Asa-Liu
       </p>

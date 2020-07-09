@@ -20,10 +20,10 @@ switch($table){
         $data["text"]=$_POST['text'];
         $data['sh']=$_POST['sh'];
     break;
-    case "menu":
-        $data["name"]=$_POST['name'];
-        $data['href']=$_POST['href'];
-        $data['sh']=1;
+    case "expb":
+        $data["title"]=$_POST['title'];
+        $data['posi']=$_POST['posi'];
+        $data['job']=$_POST['job'];
     break;
     default:
         $data['text']=$_POST['text'];

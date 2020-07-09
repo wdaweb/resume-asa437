@@ -1,4 +1,4 @@
-<div class="text-center font-weight-bold h4 mt-5">學歷/Education</div><br>
+<div class="text-center font-weight-bold h3 mt-5">學歷/Education</div><br>
 
 <!--原文 <p class="font-weight-bold">逢甲大學 / 碩士 / 2008～2010</p>
 <p class="mx-3">科系:材料科學與工程學系</p>
@@ -19,11 +19,11 @@
     // echo "</pre>";
   ?>
   
-<p class="font-weight-bold h5"><?=$rows[0]['sch'];?></p>
-<p class="font-weight-bold mx-3"><?=$rows[0]['major'];?></p>
-<p class="font-weight-bold mx-4"><?=$rows[0]['content1'];?></p>
-<p class="font-weight-bold mx-4"><?=$rows[0]['content2'];?></p>
-<p class="font-weight-bold mx-4"><?=$rows[0]['content3'];?> </p>
+<p class="font-weight-bold h4 mx-5"><?=$rows[0]['sch'];?></p>
+<p class="font-weight-bold mx-5"><?=$rows[0]['major'];?></p>
+<p class="font-weight-bold mx-5"><?=$rows[0]['content1'];?></p>
+<p class="font-weight-bold mx-5"><?=$rows[0]['content2'];?></p>
+<p class="font-weight-bold mx-5"><?=$rows[0]['content3'];?> </p>
 <br>
-<p class="font-weight-bold h5"> <?=$rows[1]['sch'];?> </p>
-<p class="font-weight-bold mx-3 font-weight-bold"><?=$rows[1]['major'];?></p>
+<p class="font-weight-bold h4 mx-5"> <?=$rows[1]['sch'];?> </p>
+<p class="font-weight-bold mx-5 font-weight-bold"><?=$rows[1]['major'];?></p>

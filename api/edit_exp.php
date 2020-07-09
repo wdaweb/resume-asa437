@@ -26,7 +26,7 @@ $db=new DB($table);
         $row=$db->find($id);
 
          switch($table){
-            case "exp":
+            case "expb":
                 $row['title']=$_POST['title'][$key];
                 $row['posi']=$_POST['posi'][$key];
                 $row['job']=$_POST['job'][$key];

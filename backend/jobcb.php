@@ -9,10 +9,10 @@
                                         
 <form action="api/edit_jobc.php" method="post" class="mx-5">
 
-        <div class="input-group py-2"><label for="">希望工作地點：</label><input class='form-control' type='text' name='place' value="<?=$jobc['place'];?>"></div>
-        <div class="input-group py-2"><label for="">希望職務 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ：</label><input class='form-control' name='job' type="text" value="<?=$jobc['job'];?>"></div>
-        <div class="input-group py-2"><label for="">就業狀況 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ：</label><input class='form-control' name='status' type="text" value="<?=$jobc['status'];?>"></div>
-        <div class="input-group py-2"><label for="">可上班日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ：</label><input class='form-control' name='available' type="text" value="<?=$jobc['available'];?>"></div>
+        <div class="input-group py-2"><label for="">希望工作地點&nbsp;：</label><input class='form-control' type='text' name='place' value="<?=$jobc['place'];?>"></div>
+        <div class="input-group py-2"><label for="">希望職務 &nbsp;&nbsp;&nbsp; ：</label><input class='form-control' name='job' type="text" value="<?=$jobc['job'];?>"></div>
+        <div class="input-group py-2"><label for="">就業狀況 &nbsp;&nbsp;&nbsp; ：</label><input class='form-control' name='status' type="text" value="<?=$jobc['status'];?>"></div>
+        <div class="input-group py-2"><label for="">可上班日 &nbsp;&nbsp;&nbsp; ：</label><input class='form-control' name='available' type="text" value="<?=$jobc['available'];?>"></div>
 
 
         <table style="margin-top:50px; margin-left:auto;margin-right:auto">

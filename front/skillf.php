@@ -1,4 +1,4 @@
-<div class="text-center font-weight-bold h4 mt-5">技能/Skill</div><br>
+<div class="text-center font-weight-bold h3 mt-5">技能/Skill</div><br>
 
 <?php
   $table='skill';
@@ -12,7 +12,7 @@
 <div class="w-100 mx-4">
   <div class="font-weight-bold h5">Frontend 前端技術</div>
   <div class="card-group  container-fluid">
-    <img src="http://220.128.133.15/s1090208/Bootstrap-Resume/Skill/html.jpg" class="AsaSkill mb-3 px-0"
+    <img src="img/<?=$rows[0]['img'];?>" class="AsaSkill mb-3 px-0"
       style="width:100px;height:100px">
     <img src='img/<?=$rows[1]['img'];?>' class="AsaSkill mb-3 mx-0"
       style="width:100px;height:100px">

@@ -1,4 +1,16 @@
-<?php include_once "base.php";?>
+<?php
+include_once "base.php";
+
+if(empty($_SESSION['login'])){
+?>
+    <script>
+        alert('非法登入，請重新登入');
+        location.href='index.php?do=login'
+    </script>
+<?php
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -68,7 +80,7 @@
             <a  class="btn btn-warning text-white font-weight-bold" href="index.php">回首頁</a>
         </div>
       </div>
-      <div class="container col-lg-9 smallbox">
+      <div class="container col-lg-9">
 
         <?php
           $do=(!empty($_GET['do']))?$_GET['do']:'ME';
@@ -84,7 +96,7 @@
     </div>
 
 <!-- -------------------------------------------------------------------------------- -->
-    <footer class="container font-weight-bold text-center mx-auto mt-0 bg-info text-white">
+    <footer class="container font-weight-bold text-center mx-auto mt-0 asawallback3">
       <p class="py-2 h4">
         Resume©2020-網頁設計By Asa-Liu
       </p>
