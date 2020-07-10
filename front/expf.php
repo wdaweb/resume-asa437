@@ -17,7 +17,7 @@
 <br> -->
 
   <?php
-  $table='exp';
+  $table='expb';
       $db=new DB($table);
       $rows=$db->all();
     // echo "<pre>";

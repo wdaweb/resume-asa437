@@ -20,10 +20,10 @@
   ?>
   
 <p class="font-weight-bold h4 mx-5"><?=$rows[0]['sch'];?></p>
-<p class="font-weight-bold mx-5"><?=$rows[0]['major'];?></p>
-<p class="font-weight-bold mx-5"><?=$rows[0]['content1'];?></p>
-<p class="font-weight-bold mx-5"><?=$rows[0]['content2'];?></p>
-<p class="font-weight-bold mx-5"><?=$rows[0]['content3'];?> </p>
+  <p class="font-weight-bold mx-5">&nbsp; <?=$rows[0]['major'];?></p>
+    <p class="font-weight-bold mx-5">&nbsp;&nbsp;&nbsp;  ‧<?=$rows[0]['content1'];?></p>
+    <p class="font-weight-bold mx-5">&nbsp;&nbsp;&nbsp;  ‧<?=$rows[0]['content2'];?></p>
+    <p class="font-weight-bold mx-5">&nbsp;&nbsp;&nbsp;  ‧<?=$rows[0]['content3'];?> </p>
 <br>
 <p class="font-weight-bold h4 mx-5"> <?=$rows[1]['sch'];?> </p>
-<p class="font-weight-bold mx-5 font-weight-bold"><?=$rows[1]['major'];?></p>
+<p class="font-weight-bold mx-5 font-weight-bold">&nbsp; <?=$rows[1]['major'];?></p>

@@ -14,13 +14,17 @@
     <div class="smallbox mx-auto">
         <div class=" font-weight-bold py-2 h4 text-center " style="font-size:25px">個人資訊</div>
             <div class="h5 ml-3 font-weight-bold"><img src="http://220.128.133.15/s1090208/Resume/other/phtoto_reference/icon/man.ico"> 
-            Name: <?=$row['name'];?> </div>
+            Name:&nbsp;&nbsp; <?=$row['name'];?> </div>
             <div class="h5 ml-3 font-weight-bold"><img src="http://220.128.133.15/s1090208/Resume/other/phtoto_reference/icon/mail.ico">
             E-mail: <?=$row['mail'];?> </div>
             <div class="h5 ml-3 font-weight-bold"><img src="http://220.128.133.15/s1090208/Resume/other/phtoto_reference/icon/phone.ico">
-            phone: <?=$row['phone'];?> </div>
-            <div class="h5 ml-3 font-weight-bold"><img src="http://220.128.133.15/s1090208/Resume/other/phtoto_reference/icon/game.ico"> Interest:<?=$row['interest'];?></div>
+            phone:&nbsp; <?=$row['phone'];?> </div>
+            <div class="h5 ml-3 font-weight-bold"><img src="http://220.128.133.15/s1090208/Resume/other/phtoto_reference/icon/game.ico"> 
+            Interest:<?=$row['interest'];?></div>
+            <div class="h5 ml-3 font-weight-bold"> <a href="https://asa437.github.io" target="_blank"><img src="http://220.128.133.15/s1090208/Resume/other/phtoto_reference/icon/github.ico"></a> Github</div>
     </div>
+
+
              
 <?php
  }

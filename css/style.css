@@ -46,7 +46,7 @@ body{
 
 .smallbox{
     width: 400px;
-    height: 300px;
+    height: 350px;
     border:1px solid rgb(77, 74, 74);
     border-radius: 20px;
     background: linear-gradient(52deg, rgba(224, 163, 157, 1)35%, rgba(255, 243, 60, 1)96%);
